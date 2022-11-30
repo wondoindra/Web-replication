@@ -1,3 +1,5 @@
+import Link from '@mui/material/Link'
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -14,10 +16,15 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-          underline
         >
           Learn React
         </a>
+        <Link
+          className="underline blur-sm" // MUI component using tailwind css testing
+          href="https://reactjs.org"
+        >
+          Learn React
+        </Link>
       </header>
     </div>
   );
