@@ -20,9 +20,10 @@ const Nav = () => {
         sx={{
           width: `calc(100% - ${drawerWidth}px)`,
           height: appbarHeight,
+          backgroundColor:'white',
         }}
       >
-        <div className="h-16 flex flex-row justify-between items-center bg-white shadow-[2px_2px_4px_rgba(0, 0, 0, 0.05)]">
+        <div className="h-16 flex flex-row justify-between items-center bg-white shadow-[2px_2px_4px_rgba(0,0,0,0.05)]">
           <div className="ml-8 flex flex-row items-center">
             <IoSearchOutline className="w-4 h-4 mr-2.5 text-[#505050]" />
             <input className="text-sm text-[#A1A1A1] font-normal focus:outline-none" placeholder="Search for anything here..." />
@@ -38,11 +39,11 @@ const Nav = () => {
         variant="permanent"
         anchor="left"
         sx={{
-          width: drawerWidth
+          width: drawerWidth,
         }}
       >
         <div style={{ width: drawerWidth }}>
-          <div className="h-16 bg-[#1E67AF] flex items-center shadow-[2px_2px_4px_rgba(0, 0, 0, 0.05)]">
+          <div className="h-16 bg-[#1E67AF] flex items-center shadow-[2px_2px_4px_rgba(0,0,0,0.05)]">
             <div className="ml-6">
               <img src={MCLogo} alt="Manning&Co Logo" className="w-52 h-5"/>
             </div>
@@ -52,7 +53,7 @@ const Nav = () => {
             <p className="mt-3 font-bold text-base leading-5 text-[#323A46]">Radhika Dhawan Puri</p>
             <p className="mb-7 font-normal text-sm text-[#323A46]">Senior Client Services</p>
             <Divider />
-            <p className="mt-7 text-xs font-normal leading-4 tracking-[.16em] text-[#323A46]">Navigation</p>
+            <p className="mt-7 text-xs font-normal leading-4 tracking-[.16em] text-[#323A46]">NAVIGATION</p>
             <div className="flex flex-row items-center mt-3 mb-2.5">
               <MdOutlineDashboard className="w-5 h-5 text-[#323A46]" />
               <p className="ml-3 font-bold text-base leading-5 text-[#1E67AF]">Dashboard</p>
@@ -62,7 +63,7 @@ const Nav = () => {
               <p className="ml-3 font-bold text-base leading-5 text-[#323A46]">Approvals</p>
             </div>
             <Divider />
-            <p className="mt-7 text-xs font-normal leading-4 tracking-[.16em] text-[#323A46]">My Account</p>
+            <p className="mt-7 text-xs font-normal leading-4 tracking-[.16em] text-[#323A46]">MY ACCOUNT</p>
             <div className="flex flex-row items-center mt-3 mb-2.5">
               <RiAccountPinBoxLine className="w-5 h-5 text-[#323A46]" />
               <p className="ml-3 font-bold text-base leading-5 text-[#323A46]">My clients</p>
